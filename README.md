@@ -1,1 +1,1 @@
-# Projekt 1 - Textový analyzátor
+Projekt 1 - Textový analyzátor
