@@ -101,14 +101,14 @@ numbers = []
 numbers_sum = 0
 
 for item in words:
-    if item.istitle():
-        titlecase_words += 1
-    if item.isupper():
-        uppercase_words += 1
-    if item.islower():
-        lowercase_words += 1
     if item.isdigit():
         numbers.append(item)
+    elif item.istitle():
+        titlecase_words += 1
+    elif item.isupper():
+        uppercase_words += 1
+    elif item.islower():
+        lowercase_words += 1
 
 for number in numbers:
     numbers_sum += int(number)
