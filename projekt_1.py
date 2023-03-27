@@ -101,7 +101,7 @@ numbers = []
 numbers_sum = 0
 
 for item in words:
-    if item[0].isupper():
+    if item.istitle():
         titlecase_words += 1
     if item.isupper():
         uppercase_words += 1
