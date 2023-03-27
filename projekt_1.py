@@ -138,6 +138,6 @@ sorted_lengths = sorted(word_lengths.keys())
 print(f"LEN|{('OCCURENCES').center(longest_word + 1)}|NR.")
 print(separator)
 
-for x in sorted_lengths:
-    print(f"{x:3}| {'*' * word_lengths[x]:{longest_word}}| {word_lengths[x]}")
+for number in sorted_lengths:
+    print(f"{number:3}| {'*' * word_lengths[number]:{longest_word}}| {word_lengths[number]}")
     # ':' nastavuje minimální šířku pole
