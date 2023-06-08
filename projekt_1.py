@@ -2,7 +2,7 @@
 projekt_1.py: První projekt do Engeto Online Python Akademie
 author: Pavel Kartin
 email: pevelkartin@seznam.cz
-discord: KKonaPaul#9430
+discord: capitan_alex
 """
 
 
